@@ -24,7 +24,7 @@ public class ControleFila {
         System.out.println("\nTotal documentos: " + impressora.totalDocumentos());
         System.out.println("Total páginas: " + impressora.totalPaginas());
 
-        System.out.println("\nProcessando...");
+        System.out.println("\nProcessando");
         impressora.processarProximo();
         impressora.processarUltimo();
 
